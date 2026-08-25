@@ -1,0 +1,58 @@
+{
+  "orders": [
+    {
+      "order_id": "A1029",
+      "customer_email": "priya.k@example.com",
+      "status": "shipped",
+      "items": [{"sku": "WBH-200", "name": "Wireless Headphones", "qty": 1, "price": 79.99}],
+      "order_date": "2026-07-18",
+      "ship_date": "2026-07-20",
+      "estimated_delivery": "2026-07-25",
+      "carrier": "UPS",
+      "tracking_number": "1Z999AA10123456784"
+    },
+    {
+      "order_id": "A1030",
+      "customer_email": "diego.m@example.com",
+      "status": "delivered",
+      "items": [{"sku": "SB-450", "name": "Stainless Steel Water Bottle", "qty": 2, "price": 18.5}],
+      "order_date": "2026-07-10",
+      "ship_date": "2026-07-11",
+      "delivered_date": "2026-07-14",
+      "carrier": "FedEx",
+      "tracking_number": "789123456789"
+    },
+    {
+      "order_id": "A1031",
+      "customer_email": "amara.o@example.com",
+      "status": "processing",
+      "items": [{"sku": "DK-810", "name": "Mechanical Keyboard", "qty": 1, "price": 129.0}],
+      "order_date": "2026-07-29",
+      "ship_date": null,
+      "estimated_delivery": "2026-08-03",
+      "carrier": null,
+      "tracking_number": null
+    },
+    {
+      "order_id": "A1032",
+      "customer_email": "lena.f@example.com",
+      "status": "delivered",
+      "items": [{"sku": "RJ-330", "name": "Rain Jacket (M)", "qty": 1, "price": 64.0}],
+      "order_date": "2026-06-28",
+      "ship_date": "2026-06-29",
+      "delivered_date": "2026-07-02",
+      "carrier": "USPS",
+      "tracking_number": "9400111899223197428490"
+    },
+    {
+      "order_id": "A1033",
+      "customer_email": "sam.t@example.com",
+      "status": "cancelled",
+      "items": [{"sku": "LB-120", "name": "Desk Lamp", "qty": 1, "price": 34.99}],
+      "order_date": "2026-07-15",
+      "ship_date": null,
+      "cancelled_date": "2026-07-16",
+      "cancel_reason": "customer requested"
+    }
+  ]
+}
